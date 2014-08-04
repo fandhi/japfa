@@ -1,0 +1,9 @@
+.videogallery span{ display:block; }
+a.voverlay{
+	zoom:1;
+	opacity:0.87;
+}
+
+a.voverlay:hover{
+	opacity:1;
+}
