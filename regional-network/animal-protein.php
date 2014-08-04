@@ -28,11 +28,10 @@ $page = 'page3.3';
          <div class="content_intro">We produce and distribute quality animal protein products from poultry, swine, beef and aquaculture in five Emerging-Asia country markets through an integrated network of production platforms. </div>
          <div id="animal-protein">
             <div class="img-map">
-               <div class="Tab-1"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-map.jpg" alt="" /><br/>
-			   <img src="http://<?php echo $url ?>images/content/map/legend.jpg" alt="" /><p>&nbsp;</p></div>
-               <div class="Tab-2"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-swine-map.jpg" alt="" /><br/><img src="http://<?php echo $url ?>images/content/map/legend.jpg" alt="" /><p>&nbsp;</p></div>
-               <div class="Tab-3"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-beef-map.jpg" alt="" /><br/><img src="http://<?php echo $url ?>images/content/map/legend.jpg" alt="" /><p>&nbsp;</p></div>
-               <div class="Tab-4"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-aqua-map.jpg" alt="" /><br/><img src="http://<?php echo $url ?>images/content/map/legend.jpg" alt="" /><p>&nbsp;</p></div>
+               <div class="Tab-1"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-map.jpg" alt="" /><p>&nbsp;</p></div>
+               <div class="Tab-2"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-swine-map.jpg" alt="" /><p>&nbsp;</p></div>
+               <div class="Tab-3"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-beef-map.jpg" alt="" /><p>&nbsp;</p></div>
+               <div class="Tab-4"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-aqua-map.jpg" alt="" /><p>&nbsp;</p></div>
             </div>
             <div class="tabs tabs_animate tab_general">
                <ul class="list-tab">

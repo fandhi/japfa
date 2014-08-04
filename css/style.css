@@ -651,7 +651,8 @@ ul.horizontal > li {
    color: #4a92cd;
    font-family: 'NeoSansRegular';
    font-size: 18px;
-   padding: 10px 20px;
+   padding: 10px 40px 10px 20px;
+   position: relative;
 }
 .tab_general ul li.active > a {background: #4a92cd;color: #fff;}
 .tab_general .tab_1 {}
@@ -1230,6 +1231,30 @@ a.pag_prev:hover,a.pag_next:hover {
 #animal-protein .img-map > div{ display:none; }
 #animal-protein .img-map > div:first-child,#animal-protein .tabs > div:first-child{ display:block; }
 .tab_general > div{ background-color:#F00; }
+#animal-protein .tabs a.tab_1::after {
+   background-image: url(../images/material/icon-poultry.png);
+}
+#animal-protein .tabs a.tab_2::after {
+   background-image: url(../images/material/icon-swine.png);
+}
+#animal-protein .tabs a.tab_3::after {
+   background-image: url(../images/material/icon-beef.png);
+}
+#animal-protein .tabs a.tab_4::after {
+   background-image: url(../images/material/icon-aquaculture.png);
+}
+#animal-protein .tabs a::after {
+   background-position: right center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   content: "";
+   display: table;
+   height: 36px;
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   width: 30px;
+}
 /* FOOTER
 ----------------------------------------------------------------------------------------------*/
 .foo_grid {
