@@ -98,6 +98,11 @@ $(".tab_general ul li > a").click(function(){
    });
    //POP UP
    $(".fancybox").fancybox();
+   //TOOL TIP
+   $('#animal-protein .map_pointing').popover({
+      html : true
+   });
+//   $('#animal-protein .map_pointing').tooltip();
 });//End document
 
 

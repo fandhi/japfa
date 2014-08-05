@@ -60,36 +60,36 @@
             </a>
             <p class="clear">&nbsp;</p>
          </div>
-         <div class="copyright">Copyrights &copy; 2014 JAPFA Pte, Ltd All rights reserved. <a href="http://<?php echo $url ?>disclaimer.php" title="our Legal Disclaimer">Legal Disclaimer</a></div>
+         <div class="copyright">Copyrights &copy; 2014 JAPFA Pte, Ltd All rights reserved. <a href="http://<?php echo $url ?>disclaimer.php" title="our Legal Disclaimer">Disclaimer</a></div>
       </footer>
       <script type="text/javascript">
               var bs_site = "/japfa/";
       </script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_1.9.1.min.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_TimeMax.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_1.9.1.min.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_TimeMax.js"></script>
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ad23c40fab827d"></script>
       <!--tab-->
-      <script type="text/javascript" src="http://<?php echo $url?>js/tab/jquery_tabslet.min.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/tab/jquery_tabslet.min.js"></script>
       <!--slider-->
-      <script defer type="text/javascript" src="http://<?php echo $url?>js/slider/jquery_flexslider.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/slider/jquery_responsiveslides.js"></script>
+      <script defer type="text/javascript" src="http://<?php echo $url;?>js/slider/jquery_flexslider.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/slider/jquery_responsiveslides.js"></script>
       <!-- Add fancyBox main JS files -->
-      <script type="text/javascript" src="http://<?php echo $url?>js/popup/jquery_fancybox.js?v=2.1.5"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/popup/jquery_fancybox.js?v=2.1.5"></script>
       <!--popup-->
-      <script type="text/javascript" src="http://<?php echo $url?>js/popup/jquery_swfobject.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/popup/jquery_tools.min.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/popup/videolightbox.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/popup/jquery_swfobject.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/popup/jquery_tools.min.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/popup/videolightbox.js"></script>
       
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_easing.1.3.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_custom-form-elements.min.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url; ?>js/jquery_bootstrap.min.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url; ?>js/menu/jquery_bootstrap-collapse.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_easing.1.3.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_custom-form-elements.min.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_bootstrap.min.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/menu/jquery_bootstrap-collapse.js"></script>
       
       <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
       <!--timeline-->
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_kinetic.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_jscrollpane.min.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_mousewheel.js"></script>
-      <script type="text/javascript" src="http://<?php echo $url?>js/jquery_function.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_kinetic.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_jscrollpane.min.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_mousewheel.js"></script>
+      <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_function.js"></script>
    </body>
 </html>

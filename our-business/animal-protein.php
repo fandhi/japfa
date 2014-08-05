@@ -11,8 +11,9 @@ $page = 'page2.3';
 </section>
 <section id="breadcrumb">
    <div class="wrapper_12">
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
-      <a href="http://<?php echo $url ?>">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Animal Protein</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+
+      <a href="http://<?php echo $url ?>our-business/overview.php">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Animal Protein</span>
    </div>
 </section>
 <!-- end breadcrumb -->
@@ -93,10 +94,11 @@ $page = 'page2.3';
          <table class="table_content_b tb_yellow" border="0" width="100%">
             <thead>
                   <tr>
-                     <th width="20%">Indonesia</th>
+                     <!--<th width="20%">Indonesia</th>
                      <th width="20%">Vietnam</th>
                      <th width="15%">India</th>
-                     <th width="45%">Myanmar</th>
+                     <th width="45%">Myanmar</th>-->
+					 <th width="20%">Vietnam</th>
                   </tr>
                </thead>
                <tbody>
@@ -137,16 +139,17 @@ $page = 'page2.3';
             <thead>
                   <tr>
                      <th width="20%">Indonesia</th>
-                     <th width="20%">Vietnam</th>
-                     <th width="15%">India</th>
-                     <th width="45%">Myanmar</th>
+                     <th width="20%">Australia</th>
+                     <th width="15%">China</th>
+                     <th width="45%">&nbsp;</th>
                   </tr>
                </thead>
                <tbody>
                   <tr>
                      <td colspan="4">
 
-                        <p>We are the leading integrated beef feedlot company in Indonesia with capacity of over 150,000 heads of cattle per year for a total of 4 feedlots where we breed and fatten beef cattle for domestic consumption.   We have also acquired a cattle station in Australia to supplement our existing breeding capacity in Indonesia.   To meet growing domestic demand for speciality beef products; we built our own deboning and processing plant to produce speciality cuts and Wagyu beef products for grocery chain retailers, modern food services, hotels and restaurants. Development is underway to establish feedlot operations in China; where beef consumption has risen significantly in recent years as part of the country’s dietary migration towards high-protein food.</p>
+                        <p>We are the leading integrated beef feedlot company in Indonesia with capacity of over 150,000 heads of cattle per year for a total of 4 feedlots where we breed and fatten beef cattle for domestic consumption.   We have also acquired a cattle station in Australia to supplement our existing breeding capacity in Indonesia.   To meet growing domestic demand for speciality beef products; we built our own deboning and processing plant to produce speciality cuts and Wagyu beef products for grocery chain retailers, modern food services, hotels and restaurants. We ensure food safety and traceability by adhering to stringent animal welfare and bio-security protocols set by the Australian and Indonesian governments throughout our beef supply chain from breeding to downstream processing.<br/>
+						In 2014, we have begun to establish feedlot operations in China; where beef consumption has risen significantly in recent years as part of the countryâ€™s dietary migration towards high-protein food. </p>
 
                      </td>
                   </tr>
@@ -180,9 +183,9 @@ $page = 'page2.3';
             <thead>
                   <tr>
                      <th width="20%">Indonesia</th>
-                     <th width="20%">Vietnam</th>
+                     <!--<th width="20%">Vietnam</th>
                      <th width="15%">India</th>
-                     <th width="45%">Myanmar</th>
+                     <th width="45%">Myanmar</th>-->
                   </tr>
                </thead>
                <tbody>

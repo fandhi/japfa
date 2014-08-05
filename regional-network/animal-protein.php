@@ -28,10 +28,113 @@ $page = 'page3.3';
          <div class="content_intro">We produce and distribute quality animal protein products from poultry, swine, beef and aquaculture in five Emerging-Asia country markets through an integrated network of production platforms. </div>
          <div id="animal-protein">
             <div class="img-map">
-               <div class="Tab-1"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-map.jpg" alt="" /><p>&nbsp;</p></div>
-               <div class="Tab-2"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-swine-map.jpg" alt="" /><p>&nbsp;</p></div>
-               <div class="Tab-3"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-beef-map.jpg" alt="" /><p>&nbsp;</p></div>
-               <div class="Tab-4"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-aqua-map.jpg" alt="" /><p>&nbsp;</p></div>
+               <div class="Tab-1 poultry"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-map.jpg" alt="" />
+                  <div class="map_pointing pointing-1 " data-toggle="popover" data-placement="right" title="Indonesia"
+                       data-content="<ul>
+                       <li>North Sumatera - Medan</li>
+                       <li>West Sumatera - Pandang</li>
+                       <li>Lampung - Lampung</li>
+                       <li>Banten - Tangerang</li>
+                       <li>Banten - CikandeSerang</li>
+                       <li>West Java - Cirebon</li>
+                       </ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-poultry.png" alt="">
+                     </span>
+                  </div>
+                  <div class="map_pointing pointing-2 " data-toggle="popover" data-placement="right" title="Vietnam"
+                       data-content="<ul>
+                     <li>VinhPhuc Province - HuongCanh</li>
+                     <li>Thai Binh Province - Thai Binh City</li>
+                     <li>HoaBinh Province - Ky Son</li>
+                     <li>BinhThuan Province - DucLinh</li>
+                     <li>Long An Province - Ben Luc</li>
+                     </ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-poultry.png" alt="">
+                     </span>
+                  </div>
+                  <div class="map_pointing pointing-3" data-toggle="popover" data-placement="right" title="India"
+                       data-content="<ul>
+                       <li>Bihar - Vaishali</li>
+                       <li>Andra Pradesh - Nalgonda</li>
+                       <li>Maharashtra - Ahmednagar</li>
+                       <li>West Bengal - Midnapur</li>
+                       <li>West Bengal - Siliguri</li></ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-poultry.png" alt="">
+                     </span>
+                  </div>
+                  <div class="map_pointing pointing-4" data-toggle="popover" data-placement="right" title="Myanmar"
+                       data-content="<ul>
+                       <li>Yangon - Hmawbi Township</li>
+                       </ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-poultry.png" alt="">
+                     </span>
+                  </div>
+                  <div class="map_pointing pointing-5" data-toggle="popover" data-placement="right" title="Singapore"
+                     data-content="<ul>
+                       <li>Republic of Singapore</li>
+                       </ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-poultry.png" alt="">
+                     </span>
+                  </div>
+                  <p>&nbsp;</p>
+               </div><!--/poultry-->
+               <div class="Tab-2 swine"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-swine-map.jpg" alt="" />
+                  <div class="map_pointing pointing-1" data-toggle="pop" data-placement="right" title="Vietnam"
+                       data-content="<ul><li>Vinh Phuc Province - Huong Canh</li>
+                       <li>Thai Binh Province - Thai Binh City </li>
+                       <li>Hoa Binh Province - Ky Son</li>
+                       <li>Binh Thuan Province - Duc Linh</li>
+                       <li>Long An Province - Ben Luc</li></ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-swine.png" alt="">
+                     </span>
+                  </div>
+                  <p>&nbsp;</p>
+               </div><!--/swine-->
+               <div class="Tab-3 beef"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-beef-map.jpg" alt="" />
+                  <div class="map_pointing pointing-1" data-toggle="popover" data-placement="right" title="Indonesia"
+                       data-content="<ul><li>Lampung - Bekri, Central Lampung</li>
+                       <li>Lampung - Jabung, East Lampung</li>
+                       <li>East Java - Probolinggo</li>
+                       <li>East Java - Situbondo</li>
+                       <li>Banten - Serang</li></ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-beef.png" alt="">
+                     </span>
+                  </div>
+                  <div class="map_pointing pointing-2" data-toggle="popover" data-placement="right" title="Australia"
+                       data-content="<ul><li>Northern Territory - Inverway Station </li>
+                       <li>and Riveren, Buchanan</li></ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-beef.png" alt="">
+                     </span>
+                  </div>
+                  <div class="map_pointing pointing-3" data-toggle="popover" data-placement="right" title="China"
+                       data-content="<ul><li>Shandong Province - Hekou District</li></ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-beef.png" alt="">
+                     </span>
+                  </div>
+                  <p>&nbsp;</p>
+               </div><!--/beef-->
+               <div class="Tab-4 aquaculture"><img src="http://<?php echo $url ?>images/content/map/regional-animal-protein-aqua-map.jpg" alt="" />
+                  <div class="map_pointing pointing-1" data-toggle="popover" data-placement="right" title="Indonesia"
+                       data-content="<ul><li>North Sumatera - Medan</li>
+                       <li>Lampung - Lampung South</li>
+                       <li>West Java - Cirebon</li>
+                       <li>East Java - Banyuwangi</li>
+                       <li>East Java - Gresik</li></ul>">
+                     <span class="img">
+                        <img src="http://localhost/japfa/images/material/marker-aquaculture.png" alt="">
+                     </span>
+                  </div>
+                  <p>&nbsp;</p>
+               </div><!--/aquaculture-->
             </div>
             <div class="tabs tabs_animate tab_general">
                <ul class="list-tab">

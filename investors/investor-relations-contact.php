@@ -11,8 +11,9 @@ $page = 'page5.6';
 </section>
 <section id="breadcrumb">
    <div class="wrapper_12">
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
-      <a href="http://<?php echo $url ?>">Investors</a> <span class="b_arrow">&rsaquo;</span> <span>Investor Relations Contact</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+
+      <a href="http://<?php echo $url ?>investors/corporate-governance.php">Investors</a> <span class="b_arrow">&rsaquo;</span> <span>Investor Relations Contact</span>
    </div>
 </section>
 <!-- end breadcrumb -->
@@ -28,12 +29,12 @@ $page = 'page5.6';
          <img src="http://<?php echo $url ?>images/content/investorcontact.jpg" alt="" />
          <p>&nbsp;</p>
 
-         <h5><b>Head Office</b></h5>
-         <table border="0" width="550">
+         <h5><b>Head Office</b></h5><br/>
+         <table border="0" width="710">
             <tbody>
                <tr>
-                  <td width="230">JAPFA LTD.</td>
-                  <td width="170">Tel</td>
+                  <td width="300">JAPFA LTD.</td>
+                  <td width="90">Tel</td>
                   <td width="10">:</td>
                   <td width="140">+65-67335 0031</td>
                </tr>
@@ -59,7 +60,7 @@ $page = 'page5.6';
          </table>
          <p>&nbsp;</p><p>&nbsp;</p>
          <div class="reset_grid">
-            <a class="btn " href="">Explore Dairy Locations</a>
+            <a class="btn " href="http://<?php echo $url ?>media/news-clippings.php">Explore Media</a>
          </div>
          <p>&nbsp;</p>
       </aside>

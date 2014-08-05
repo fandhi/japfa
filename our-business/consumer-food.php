@@ -11,8 +11,9 @@ $page = 'page2.4';
 </section>
 <section id="breadcrumb">
    <div class="wrapper_12">
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
-      <a href="http://<?php echo $url ?>">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Consumer Food</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+
+      <a href="http://<?php echo $url ?>our-business/overview.php">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Consumer Food</span>
    </div>
 </section>
 <!-- end breadcrumb -->
@@ -77,19 +78,17 @@ $page = 'page2.4';
                   <tr>
                      <td colspan="4" align="center">
                         <div class="reset_grid">
-                           <a class="btn" title="Explore Consumer Food Locations">Explore Consumer Food Locations</a>
+                           <a class="btn" href="http://<?php echo $url ?>regional-network/consumer-food.php" title="Explore Consumer Food Locations">Explore Consumer Food Locations</a>
                            <p>&nbsp;</p>
-                           <a class="btn" href="http://<?php echo $url ?>regional-network/overview.php" title="Explore Regional Network">Explore Regional Network</a>
                         </div>
                      </td>
                   </tr>
                </tbody>
          </table>
 
-         <p>&nbsp;</p>
          <div class="reset_grid">
             <p>&nbsp;</p>
-            <a class="btn" href="http://<?php echo $url ?>regional-network/overview.php" title="Explore Consumer Advertisement">Explore Consumer Advertisement</a>
+            <a class="btn" href="http://<?php echo $url ?>regional-network/overview.php" title="Explore Regional Network">Explore Regional Network</a>
          </div>
          <p>&nbsp;</p>
          <p>&nbsp;</p>
