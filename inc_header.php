@@ -1,5 +1,6 @@
 <?php
 $url = $_SERVER['SERVER_NAME'] . "/japfa/";
+
 $page = "page0";
 ?>
 <!DOCTYPE html>
@@ -31,7 +32,20 @@ $page = "page0";
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/jquery.fancybox.css?v=2.1.5" media="screen" />
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/jquery.jscrollpane.css" media="all" />
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/flexslider.css" media="screen" />
-
+        <?php
+        $uri = $_SERVER['REQUEST_URI'];
+        if (!empty($uri))
+        {
+           $uri = trim(substr($uri,strrpos($uri,'/')),'/');
+           
+           if (substr($uri,0,1) == '.')
+           {
+              echo '<script>var tabClass = "', $uri , '";</script>';
+           }
+        }
+        
+        
+        ?>
    </head>
    <body>
       <header id="header">

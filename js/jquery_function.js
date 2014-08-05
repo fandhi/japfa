@@ -56,21 +56,7 @@ $(document).ready(function() {
       }
 })
 
-$("#animal-protein .tab_general > div:first").show();
-$(".tab_general ul > li:first").addClass("active");
-$(".tab_general ul li > a").click(function(){
-	var id = $(this).attr("href");
-	
-	if(id != undefined )
-	{
-		$("#animal-protein .tab_general > div,#animal-protein .img-map > div").hide();
-		$(".tab_general ul > li").removeClass("active");
-		$("#animal-protein .tab_general > div"+id+",#animal-protein .img-map > div"+id).show();
-		$(this).parent("li").addClass("active");
-		return false;
-	}
-	
-})
+
    $('.scroll-pane').jScrollPane({showArrows: true});
 
    //SLIDER HOME
@@ -85,6 +71,26 @@ $(".tab_general ul li > a").click(function(){
       attribute: 'href',
       animation: true
    });
+   //$("#animal-protein .tab_general > div").eq(2).show();
+//$(".tab_general ul > li").eq(2).addClass("active");
+$(".tab_general ul li > a").click(function(){
+	var id = $(this).attr("href");
+	
+	if(id != undefined )
+	{ 
+    $(this).parents('ul').children('li').removeClass('active');
+    $("#animal-protein .tab_general > div,#animal-protein .img-map > div").hide();
+		$(".tab_general ul > li").removeClass("active");
+		$("#animal-protein .tab_general > div"+id+",#animal-protein .img-map > div"+id).show();
+		$(this).parent("li").addClass("active");
+		return false;
+	}
+	
+})
+if(typeof tabClass != 'undifined') {
+   $(".tab_general ul li > a[href='"+tabClass+"']").trigger('click');
+}
+   
    //CLICK PERSON
    $('.grid_pstructure .click_more').click(function() {
       var temp = $(this);
