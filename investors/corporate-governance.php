@@ -18,9 +18,9 @@ $page = 'page5.1';
 
    <div class="wrapper_12">
 
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
 
-      <a href="http://<?php echo $url ?>">Investors</a> <span class="b_arrow">&rsaquo;</span> <span>Corporate Governance</span>
+      <a href="http://<?php echo $url ?>investors/corporate-governance.php">Investors</a> <span class="b_arrow">&rsaquo;</span> <span>Corporate Governance</span>
 
    </div>
 
@@ -94,13 +94,13 @@ $page = 'page5.1';
 
 
 
-         <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+         <p>&nbsp;</p><p>&nbsp;</p>
 
-         <div class="reset_grid">
+         <!--<div class="reset_grid">
 
             <a class="btn" href="http://<?php echo $url ?>investors/financial-reports-and-disclosures.php">Financial Reports &amp; Disclosures</a>
 
-         </div>
+         </div>-->
 
          <p>&nbsp;</p>
 

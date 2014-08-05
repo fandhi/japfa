@@ -18,9 +18,9 @@ $page = 'page4.1';
 
    <div class="wrapper_12">
 
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
 
-      <a href="http://<?php echo $url ?>">Our Values</a> <span class="b_arrow">&rsaquo;</span> <span>Growing Towards Mutual Prosperity</span>
+      <a href="http://<?php echo $url ?>our-values/growing-towards-mutual-prosperity.php">Our Values</a> <span class="b_arrow">&rsaquo;</span> <span>Growing Towards Mutual Prosperity</span>
 
    </div>
 
@@ -86,13 +86,13 @@ $page = 'page4.1';
 
          <p>we actively strive to be a good neighbor by engaging in social programs that address specific needs</p>
 
-         <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+         <p>&nbsp;</p><p>&nbsp;</p>
 
-         <div class="reset_grid">
+         <!--<div class="reset_grid">
 
             <a class="btn" href="http://<?php echo $url ?>our-values/japfa4kids.php">Explore JAPFA4Kids</a>
 
-         </div>
+         </div>-->
 
          <p>&nbsp;</p>
 

@@ -8,8 +8,9 @@ $page = 'page1.2';
 </section>
 <section id="breadcrumb">
    <div class="wrapper_12">
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
-      <a href="http://<?php echo $url ?>">About Us</a> <span class="b_arrow">&rsaquo;</span> <span>Our History</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+
+      <a href="http://<?php echo $url ?>about-us/overview.php">About Us</a> <span class="b_arrow">&rsaquo;</span> <span>Our History</span>
    </div>
 </section>
 <!-- end breadcrumb -->

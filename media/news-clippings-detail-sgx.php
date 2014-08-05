@@ -29,10 +29,10 @@ $page = 'page6.1';
 
                   
                <div class="la_content">
-                  <div class="la_date"><b>June 6, 2014</b></div>
-                  <h4><a href="">PT Santosa Agrindo (Santori), a wholly owned arm of PT Japfa Comfeed Indonesia Tbk, on 1 October 2013 has completed the purchase process for two cattle farms in Australia</a></h4>
-                  <!--<a class="link_download" href="">Download</a>
-                  <p>PT Japfa Comfeed Indonesia, Tbk (JAPFA), an Indonesian company growing and expanding in Indonesia, has always strive to become a responsible corporate citizen.</p>
+                  <div class="la_date"><b>July 30, 2014</b></div>
+                  <h4><a href="">JAPFA Limited seeking to list its shares on the main board of Singapore Exchange.</a></h4>
+                  <a class="link_download" href="http://<?php echo $url ?>images/content/news/sgx.pdf" target="blank">Download</a>
+                  <!--<p>PT Japfa Comfeed Indonesia, Tbk (JAPFA), an Indonesian company growing and expanding in Indonesia, has always strive to become a responsible corporate citizen.</p>
                   <p>JAPFA realize that the growth of the company is due to the support from its stakeholders; customers, employees, shareholders, to the community and others. 
                      This awareness has encourage JAPFA to support numerous social activities.</p>
                   <p>JAPFA involves in various social activities working towards better future of Indonesia, focussing on education and health. 
@@ -41,7 +41,7 @@ $page = 'page6.1';
                   <p></p>-->
                </div>
 
-               <div class="img"><img src="http://<?php echo $url ?>images/content/news/news-detail.jpg" alt=""/></div>
+               <div class="img"><img src="http://<?php echo $url ?>images/content/news/sgx_Page_1.jpg" alt=""/></div>
 
          <p>&nbsp;</p><p>&nbsp;</p>
 

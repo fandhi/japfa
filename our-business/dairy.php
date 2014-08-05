@@ -11,8 +11,9 @@ $page = 'page2.2';
 </section>
 <section id="breadcrumb">
    <div class="wrapper_12">
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
-      <a href="http://<?php echo $url ?>">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Dairy</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+
+      <a href="http://<?php echo $url ?>our-business/overview.php">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Dairy</span>
    </div>
 </section>
 <!-- end breadcrumb -->
@@ -39,7 +40,7 @@ $page = 'page2.2';
             </ul>
          </div>
 
-         <p>In 1998, we pioneered the first grass-to-glass modern dairy in Indonesia which produces pasteurized, high quality, fresh milk that is 100% natural.  In 2000 we began to market directly to the consumer and launched Greenfields milk in Indonesia which has become the country’s leading brand for fresh quality milk.   This was followed by other value-added products such as fresh whipping cream and cheese with exports to Singapore, Hong Kong and other South East Asian countries. </p>
+         <p>In 1998, we pioneered the first grass-to-glass modern dairy in Indonesia which produces pasteurized, high quality, fresh milk that is 100% natural.  In 2000 we began to market directly to the consumer and launched Greenfields milk in Indonesia which has become the country's leading brand for fresh quality milk.   This was followed by other value-added products such as fresh whipping cream and cheese with exports to Singapore, Hong Kong and other South East Asian countries. </p>
 
 
 
@@ -66,7 +67,7 @@ $page = 'page2.2';
 
                         <p>In 1998, we built a vertically integrated farm and processing facility in Malang, East Java which became the first grass-to-glass dairy facility in Indonesia.  </p>
 						<p>With a herd size of over 5,000 carefully selected Holstein cattle; premium raw milk is automatically transferred from the farm to the processing and packaging plant within a single location.  This production model enables us to seal in the maximum amount of natural nutrients in all our fresh dairy products.</p>
-						<p>In 2000, we launched our consumer brand Greenfields to differentiate our milk in the premium segment as pure, high quality and locally produced.  Other value-added products such as whipping cream and cheese were subsequently introduced to target affluent consumers seeking more sophisticated dairy products. Today, Greenfields is Indonesia’s No. 1 brand for fresh quality milk.  It is stocked throughout supermarket chains, quality food & beverage establishments and international coffee brands such as Starbucks.</p>
+						<p>In 2000, we launched our consumer brand Greenfields to differentiate our milk in the premium segment as pure, high quality and locally produced.  Other value-added products such as whipping cream and cheese were subsequently introduced to target affluent consumers seeking more sophisticated dairy products. Today, Greenfields is Indonesia's No. 1 brand for fresh quality milk.  It is stocked throughout supermarket chains, quality food & beverage establishments and international coffee brands such as Starbucks.</p>
 						<p>In addition to domestic distribution, we have also developed an export channel for Greenfields dairy in neighbouring South East Asian countries.  Plans are underway to expand our production capacity to support growth in both domestic and export markets.  
                      <br/><a href="http://www.greenfieldsmilk.com" style="color: #e87218;" target="_blank">www.greenfieldsmilk.com</a></p></td>
 
@@ -84,7 +85,7 @@ $page = 'page2.2';
                   <tr>
                      <td colspan="3" align="center">
                         <div class="reset_grid">
-                           <a class="btn " href="http://<?php echo $url ?>our-business/animal-protein.php" title="Explore Dairy Locations">Explore Dairy Locations</a>
+                           <a class="btn " href="http://<?php echo $url ?>regional-network/dairy.php" title="Explore Dairy Locations">Explore Dairy Locations</a>
                         </div>
                      </td>
                   </tr>

@@ -18,9 +18,9 @@ $page = 'page6.1';
 
    <div class="wrapper_12">
 
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
 
-      <a href="http://<?php echo $url ?>">Media</a> <span class="b_arrow">&rsaquo;</span> <span>News &amp; Clippings</span>
+      <a href="http://<?php echo $url ?>media/news-clippings.php">Media</a> <span class="b_arrow">&rsaquo;</span> <span>News &amp; Clippings</span>
 
    </div>
 
@@ -50,17 +50,15 @@ $page = 'page6.1';
 
             <li>
 
-               <div class="img"><img src="http://<?php echo $url ?>images/content/press-clippings/press-clippings-1.jpg" alt=""/></div>
+               <div class="img"><img src="http://<?php echo $url ?>images/content/news/sgx_Page_1.jpg" alt=""/></div>
 
                <div class="la_content">
 
-                  <div class="la_date">June 6, 2014</div>
+                  <div class="la_date">July 30, 2014</div>
 
-                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail.php">Chicken Breeder Japfa Shrugs Off Bird Flu to Market Dollar Bond</a></h4>
+                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail-sgx.php">Japfa to Offer Shares at an Indicative Price of 75-87 Cents</a></h4>
 
-                  <div class="la_intro">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, 
-
-                     nec sagittis sem nibh id elit.</div>
+                  <div class="la_intro">JAPFA Limited seeking to list its shares on the main board of Singapore Exchange.</div>
 
                </div>
 
@@ -68,97 +66,26 @@ $page = 'page6.1';
 
             <li>
 
-               <div class="img"><img src="http://<?php echo $url ?>images/content/press-clippings/press-clippings-2.jpg" alt=""/></div>
+               <div class="img"><img src="http://<?php echo $url ?>images/content/news/news-detail.jpg" alt=""/></div>
 
                <div class="la_content">
 
                   <div class="la_date">June 6, 2014</div>
 
-                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail.php">Chicken Breeder Japfa Shrugs Off Bird Flu to Market Dollar Bond</a></h4>
+                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail.php">Japfa Comfeed Buys 2 Cattle Farms in Australia</a></h4>
 
-                  <div class="la_intro">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, 
-
-                     nec sagittis sem nibh id elit.</div>
+                  <div class="la_intro">JAKARTA - PT Santosa Agrindo (Santori), a wholly owned arm of PT Japfa Comfeed Indonesia Tbk on 1 October 2013 has completed the purchase process for two cattle farms in Australia.</div>
 
                </div>
 
             </li>
 
-            <li>
 
-               <div class="img"><img src="http://<?php echo $url ?>images/content/press-clippings/press-clippings-1.jpg" alt=""/></div>
-
-               <div class="la_content">
-
-                  <div class="la_date">June 6, 2014</div>
-
-                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail.php">Chicken Breeder Japfa Shrugs Off Bird Flu to Market Dollar Bond</a></h4>
-
-                  <div class="la_intro">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, 
-
-                     nec sagittis sem nibh id elit.</div>
-
-               </div>
-
-            </li>
-
-            <li>
-
-               <div class="img"><img src="http://<?php echo $url ?>images/content/press-clippings/press-clippings-2.jpg" alt=""/></div>
-
-               <div class="la_content">
-
-                  <div class="la_date">June 6, 2014</div>
-
-                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail.php">Chicken Breeder Japfa Shrugs Off Bird Flu to Market Dollar Bond</a></h4>
-
-                  <div class="la_intro">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, 
-
-                     nec sagittis sem nibh id elit.</div>
-
-               </div>
-
-            </li>
-
-            <li>
-
-               <div class="img"><img src="http://<?php echo $url ?>images/content/press-clippings/press-clippings-1.jpg" alt=""/></div>
-
-               <div class="la_content">
-
-                  <div class="la_date">June 6, 2014</div>
-
-                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail.php">Chicken Breeder Japfa Shrugs Off Bird Flu to Market Dollar Bond</a></h4>
-
-                  <div class="la_intro">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, 
-
-                     nec sagittis sem nibh id elit.</div>
-
-               </div>
-
-            </li>
-
-            <li>
-
-               <div class="img"><img src="http://<?php echo $url ?>images/content/press-clippings/press-clippings-2.jpg" alt=""/></div>
-
-               <div class="la_content">
-
-                  <div class="la_date">June 6, 2014</div>
-
-                  <h4><a href="http://<?php echo $url ?>media/news-clippings-detail.php">Chicken Breeder Japfa Shrugs Off Bird Flu to Market Dollar Bond</a></h4>
-
-                  <div class="la_intro">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, 
-
-                     nec sagittis sem nibh id elit.</div>
-
-               </div>
-
-            </li>
 
          </ul>
+		 <!-- start paging -->
 
-         <p>&nbsp;</p><p>&nbsp;</p>
+         <!--<p>&nbsp;</p><p>&nbsp;</p>
 
          <div class="paging">
 
@@ -188,7 +115,7 @@ $page = 'page6.1';
 
             </ul>
 
-         </div>
+         </div>-->
 
          <p>&nbsp;</p><p>&nbsp;</p>
 

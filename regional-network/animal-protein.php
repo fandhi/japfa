@@ -11,8 +11,8 @@ $page = 'page3.3';
 </section>
 <section id="breadcrumb">
    <div class="wrapper_12">
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
-      <a href="http://<?php echo $url ?>">Regional Network</a> <span class="b_arrow">&rsaquo;</span> <span>Animal Protein</span>
+      <a<a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+      <a href="http://<?php echo $url ?>regional-network/overview.php">Regional Network</a> <span class="b_arrow">&rsaquo;</span> <span>Animal Protein</span>
    </div>
 </section>
 <!-- end breadcrumb -->
@@ -429,9 +429,9 @@ $page = 'page3.3';
          </div>
          <p>&nbsp;</p>
          <p>&nbsp;</p>
-         <div class="reset_grid">
+         <!--<div class="reset_grid">
             <a class="btn" href="">Explore Consumer Food</a>
-         </div>
+         </div>-->
       </aside>
       <!-- end mainSide -->
    </div>

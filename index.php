@@ -70,20 +70,20 @@ include 'inc_slider.php';
          <div id="tab-1">
             <div class="tab_content">
                <div class="tab_center upfix_4">
-                  <a class="btn " href="">Explore</a>
+                  <a class="btn " href="our-business/dairy.php">Explore</a>
                </div>
             </div>
          </div>
          <div id="tab-2"><div class="tab_content">
                <div class="tab_center text_center upfix_4">
-                  <a class="btn " href="">Explore</a>
+                  <a class="btn " href="our-business/animal-protein.php">Explore</a>
                </div>
             </div>
          </div>
          <div id="tab-3">
             <div class="tab_content">
                <div class="tab_center text_right upfix_4">
-                  <a class="btn " href="">Explore</a>
+                  <a class="btn " href="our-business/consumer-food.php">Explore</a>
                </div>
                <!--<div class="wrapper_10">
                   <img class="append-left-2 append-right-2" src="http://<?php echo $url ?>images/content/product-1.png" width="145" height="196" alt="product-1"/>

@@ -18,9 +18,9 @@ $page = 'page2.1';
 
    <div class="wrapper_12">
 
-      <a class="icon_home" href=""><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
+      <a class="icon_home" href="http://<?php echo $url ?>"><img src="http://<?php echo $url ?>images/material/icon-home.png" alt="Logo Japfa"/></a> <span class="b_arrow">&rsaquo;</span>
 
-      <a href="http://<?php echo $url ?>">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Overview</span>
+      <a href="http://<?php echo $url ?>our-business/overview.php">Our Business</a> <span class="b_arrow">&rsaquo;</span> <span>Overview</span>
 
    </div>
 
@@ -50,7 +50,7 @@ $page = 'page2.1';
  </div>
 
 
-         <p>Our business consists of three segments – Dairy, Animal Protein (poultry, beef & swine) and Consumer Food.  We nourish millions of consumers in emerging Asia with healthy, quality animal protein products by adopting advanced production processes. </p>
+         <p>Our business consists of three segments - Dairy, Animal Protein (poultry, beef & swine) and Consumer Food.  We nourish millions of consumers in emerging Asia with healthy, quality animal protein products by adopting advanced production processes. </p>
          
          <p>For over 40 years, we have established an industrial network of farms, manufacturing and distribution facilities in Indonesia, China, Vietnam, Myanmar, India and Australia.  We consistently focus on scale, integration and quality to become leaders in multiple product segments in our target markets where protein consumption is fuelled by population expansion and urban development. </p>
 
