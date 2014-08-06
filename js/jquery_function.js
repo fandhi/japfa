@@ -86,10 +86,7 @@ $(".tab_general ul li > a").click(function(){
 		return false;
 	}
 	
-})
-if(typeof tabClass != 'undifined') {
-   $(".tab_general ul li > a[href='"+tabClass+"']").trigger('click');
-}
+});
    
    //CLICK PERSON
    $('.grid_pstructure .click_more').click(function() {
@@ -108,7 +105,11 @@ if(typeof tabClass != 'undifined') {
    $('#animal-protein .map_pointing').popover({
       html : true
    });
-//   $('#animal-protein .map_pointing').tooltip();
+
+
+if(typeof tabClass != 'undefined') {
+      $(".tab_general ul li > a[href='" + tabClass + "']").trigger('click');
+   }
 });//End document
 
 

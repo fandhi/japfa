@@ -437,4 +437,5 @@ $page = 'page3.3';
    </div>
    <div class="clear"></div>
 </section><!-- end middle -->
+
 <?php include '../inc_footer.php'; ?>
